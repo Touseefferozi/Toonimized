@@ -11,7 +11,9 @@ const Navbar = () => {
                     MyApp
                 </div>
                 <div>
-                    <Link to="/" className="text-gray-300 hover:text-white px-3">Home</Link>
+                    <Link to="/" className="text-gray-300 hover:text-white px-3">Signup</Link>
+                    <Link to="/Login" className="text-gray-300 hover:text-white px-3">Email-Send</Link>
+                    <Link to="/home" className="text-gray-300 hover:text-white px-3">Home</Link>
                     <Link to="/about" className="text-gray-300 hover:text-white px-3">About</Link>
                     <Link to="/counter" className="text-gray-300 hover:text-white px-3">Counter</Link>
                     <Link to="/contact" className="text-gray-300 hover:text-white px-3">Contact</Link>

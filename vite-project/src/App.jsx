@@ -5,6 +5,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Counter from './components/Counter'
 import Contact from './components/Contact'
+import Login from './components/Login'
+import Signup from './components/Signup'
 import './App.css'
 
 function App() {
@@ -13,7 +15,9 @@ function App() {
       <Navbar />
       
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/contact" element={<Contact />} />
